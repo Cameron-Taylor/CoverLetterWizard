@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  --wizard-ink: #1a1a2e;
+  --wizard-slate: #16213e;
+  --wizard-accent: #e94560;
+  --wizard-gold: #f0b429;
+  --wizard-mint: #a8e6cf;
+  --wizard-primary: #14b8a6;
+  --wizard-primary-hover: #0d9488;
+}
+
+body {
+  background: linear-gradient(160deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+  min-height: 100vh;
+  color: #e8e8e8;
+}
